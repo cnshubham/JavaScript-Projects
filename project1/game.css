@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background: url("https://png.pngtree.com/background/20231031/original/pngtree-futuristic-science-fiction-background-illuminated-tunnel-designed-with-advanced-technology-in-picture-image_5821138.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background: #2997f1;
+  color: #fff;
+  padding: 25px;
+  letter-spacing: 0.075rem;
+}
+header h1 u {
+  text-decoration-color: green;
+  text-decoration-thickness: 2px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+
+.choice {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.choice img {
+  rotate: -70deg;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+.choice:hover {
+  cursor: pointer;
+  background: linear-gradient(#f802cd, #116ae3, rgb(40, 214, 40));
+  transform: scale(0.9, 0.9);
+}
+.warm {
+  margin-top: 2rem;
+}
+.warm #warning-msg {
+  font-size: 1.5rem;
+  color: rgb(54, 236, 38);
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: rgb(247, 250, 79);
+}
+
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+
+.msg-container {
+  margin-top: 5rem;
+  cursor: pointer;
+}
+#msg {
+  font-size: 1.9rem;
+  background: #081631;
+  color: #fff;
+  display: inline;
+  padding: 1rem;
+  border-radius: 10px;
+}
